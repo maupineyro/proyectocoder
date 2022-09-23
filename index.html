@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--head del index-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página personal</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://raw.github.com/daneden/animate.css/master/animate.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/estilo.css">
+</head>
+
+<!--body del index-->
+
+<body>
+
+    <!--Header-->
+    <header class="container-fluid">
+        <!--Navbar-->
+        <div class="container">
+            <div class="row">
+                <nav class="navbar navbar-expand-lg navbar-dark">
+                    <div class="container-fluid">
+                        <div class="d-flex flex-grow-1 align-items-center">
+                            <span class="w-100 d-lg-none d-block"></span>
+                            <a href="#" class="navbar-brand">
+                                <img src="../assets/mp2transparente.png" alt="logo imagen" class="imgLogo">
+                            </a>
+                            <div class="w-100 text-right">
+                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#navbarmau" aria-controls="navbarmau" aria-expanded="false"
+                                    aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="collapse navbar-collapse flex-grow-1 text-right" id="navbarmau">
+                            <ul class="navbar-nav ms-auto flex-nowrap">
+                                <li class="nav-item">
+                                    <a class="nav-link active text-light" aria-current="page" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-light" href="./html/formacion.html">Formación</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-light" href="./html/proyectos.html">Proyectos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-light" href="./html/contacto.html">Contacto</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container bg-success mt-5">
+            <div class="row text-center">
+                <!-- Descripción -->
+                <div class="col-12 bg-white">
+
+                    <span class="text-warning align-middle mt-2">
+                        <h1 class="animate__animated animate__slideInDown display-4">Hola, soy Mauro Piñeyro</h1>
+                    </span>
+
+                    <span class="text-primary align-middle mb-5">
+                        <h2 class="animate__animated animate__slideInRight display-6">Estudiante Fullstack Developer y
+                            Licenciado en Gestión Educativa</h2>
+
+                    </span>
+                    <p class="lead fs-3 mt-5 bg-secondary p-4 text-light">Un técnico electrónico que por capricho del
+                        destino ejerce la docencia.
+                        <br>
+                        Me gustan los videojuegos, eventualmente subo videos a Youtube.
+                        <br>
+                        Interesado en
+                        <span class="text-primary fst-italic"><strong>programación</strong> </span>, el mundo <span
+                            class="text-info fst-italic"> <strong>crypto</strong> </span> y
+                        las <span class="text-warning fst-italic"> <strong>artes marciales</strong></span>.
+                    </p>
+                </div>
+            </div>
+
+
+            <!--imagenes de inicio-->
+            <div class="row justify-content-between">
+                <div class="col-6 bg-warning align-items-center">
+                    <img class="img-fluid rounded float-start mx-auto d-block p-3 h-100"
+                        src="./assets/fotocuadriderecha.jpg" alt="imagen cuadri derecha">
+                </div>
+                <div class="col-6 bg-warning align-items-center">
+                    <img class="img-fluid rounded float-end mx-auto d-block p-3 h-100" src="./assets/fotoindex2.jpg"
+                        alt="imagen cuadri derecha">
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!--footer-->
+    <footer class="container-fluid d-flex justify-content-evenly bg-secondary mt-5 align-items-end">
+        <div class="row">
+            <div class="col-4 text-light">
+                <a href="https://es-la.facebook.com/">facebook</a>
+
+            </div>
+            <div class="col-4 text-info">
+                <p>youtube</p>
+            </div>
+            <div class="col-4 text-warning">
+                <p>instagram</p>
+            </div>
+        </div>
+    </footer>
+
+    <!--wow js-->
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+
+    <!--JS bootstrap-->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

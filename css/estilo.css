@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-image: url(../assets/fondoheader2.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+
+.imgLogo {
+    width: 50px;
+    margin: 0.5rem;
+}
+
+.carousel-item {
+    width: 100%;
+    height: 65vh;
+    max-height: 25rem;
+
+}
+
+.slide {
+    margin-top: 10px;
+}
+
+.slide img {
+    height: 65vh;
+}
+
+.container-fluid {
+
+    background-color: rgb(39, 102, 120);
+}
+
+body {
+    background-color: rgb(211, 224, 234);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+footer {
+
+    width: 100%;
+    /* position: sticky; */
+    bottom: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* @media (max-width: 767px) {
+    footer {
+        position: static;
+    }
+} */
+
+/* background-color: rgb(246, 245, 245);
+    width: 100%;
+    height: 10vh;
+    text-align: center;
+    *\
+
+    .carousel-inner {
+    max-height: 39rem;
+    width: 60%;
+}
+
+
+/*paleta de colores
+white/grey  -->  rgb(246, 245, 245) 
+grey  --> rgb(211, 224, 234)
+azul 1 --> rgb(22, 135, 167)
+azul 2 --> rgb(39, 102, 120)
+amarillo --> warning de bootstrap
+blanco --> light de bootstrap
+
+https://colorhunt.co/palette/f6f5f5d3e0ea1687a7276678
+*\
